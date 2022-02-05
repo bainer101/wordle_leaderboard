@@ -12,3 +12,11 @@ html, body, #root, .container {
 .btn {
     flex: 1;
 }
+
+.btn:first-child {
+    border-right: 1px solid rgba(75, 93, 1, 0.6);
+}
+
+.btn:nth-child(2) {
+    border-left: 1px solid rgba(75, 93, 1, 0.6);
+}
